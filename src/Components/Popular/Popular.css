@@ -1,0 +1,15 @@
+.popular-item {
+    display: flex; /* Use flexbox */
+    flex-wrap: nowrap; /* Prevent items from wrapping */
+    overflow-x: auto; /* Add horizontal scroll */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+    margin-left: 300px;;
+  }
+  .popular h1{
+    margin-left: 100px; 
+    margin-bottom: 30px;;
+
+  }
+  .popular hr {
+margin-bottom: 40px;;
+  }
