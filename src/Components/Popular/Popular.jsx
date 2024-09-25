@@ -18,8 +18,8 @@
         const [popularProducts,setPopularProducts] = useState([]);
         useEffect(()=>{
             // fetch('https://localhost:4000/popularinkids')
-            fetch('https://itemcatalogpjtbe.onrender.com/popularinkids')
-
+            // fetch('https://itemcatalogpjtbe.onrender.com/popularinkids')
+            fetch('https://ecommercebackend-2tni.onrender.com/popularinkids')
             .then((response)=>response.json())
             .then((data)=>setPopularProducts(data));
                                     },[])

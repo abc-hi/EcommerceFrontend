@@ -20,8 +20,8 @@ const Hero = () => {
     <p>
         collections
     </p>
-<p>for your girl kids</p><br /><br />
-<p>Shop for your little princes</p>
+<p>for your Life</p><br /><br />
+<p>Shop for your needs</p>
 </div>
 <div className='hero-latest-btn'>
     {/* <div><Link to ='/LatestCollection'>LatestCollection</Link></div>  */}

@@ -20,7 +20,9 @@ const ShopcontextProvider =(props)=>{
     
 useEffect(()=>{
 // fetch('https://localhost:4000/allproducts')
-fetch('https://itemcatalogpjtbe.onrender.com/allproducts')
+// fetch('https://itemcatalogpjtbe.onrender.com/allproducts')
+fetch('https://ecommercebackend-2tni.onrender.com/allproducts')
+
 
 .then((response)=>response.json())
 .then((data)=>setAll_Product(data))

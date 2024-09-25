@@ -18,7 +18,9 @@ const LoginSignup = () => {
         console.log("Login function executed",formData);
         let responseData;
         // await fetch('http://localhost:4000/login',{
-            await fetch('https://itemcatalogpjtbe.onrender.com/login',{
+            // await fetch('https://itemcatalogpjtbe.onrender.com/login',{
+                        await fetch('https://ecommercebackend-2tni.onrender.com/login',{
+
 
          method:'POST',
          headers:{
@@ -41,7 +43,7 @@ const LoginSignup = () => {
         console.log("Signup function executed",formData);
         let responseData;
         // await fetch('http://localhost:4000/signup',{
-            await fetch('https://itemcatalogpjtbe.onrender.com/signup',{
+            await fetch('https://ecommercebackend-2tni.onrender.com/signup',{
 
          method:'POST',
          headers:{
