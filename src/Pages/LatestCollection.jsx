@@ -3,7 +3,7 @@ import '../Item/Item.css';
 import all_product from '../Assets/all_product.js';
 import { Link } from 'react-router-dom';
 
-
+//latest collection
 const LatestCollection = () => {
     return (
         <div className='latestcollection'>
